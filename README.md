@@ -12,6 +12,10 @@ More specifically, the backend serves content with `h264-dash-fmp4-fhd-sdr-widev
 
 I don't know if it's a mistake, or how long it'll last, but enjoy it while you can!
 
+### ..and also
+
+If you want GCN-specific metadata (i.e. better tagging, descriptions, etc), try `--extractor-args 'globalcyclingnetworkplus:use_gcn_metadata'`.
+
 ## Installation
 
 Requires yt-dlp `2023.01.02` or above.
