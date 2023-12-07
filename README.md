@@ -8,7 +8,7 @@ yt-dlp --extractor-args 'globalcyclingnetworkplus:use_drm_workaround' https://pl
 
 Note: this plugin doesn't actually circumvent DRM (i.e. via decrypting protected content), but simply requests content that isn't protected by DRM (as my browser happens to do by default).
 
-More specifically, the backend serves content with `h264-dash-fmp4-fhd-sdr-widevine-cenc` profile (i.e. with DRM) in some circumstances and `h264-hls-ts-fhd-sdr-free-clear` (i.e. without DRM) in others.
+More specifically, the backend serves content with `h264-dash-fmp4-fhd-sdr-widevine-cenc` profile (i.e. with DRM) in some circumstances and `h264-hls-ts-fhd-sdr-free-clear` (i.e. without DRM) in others based on the capabilities of the client. There are likely other permutations of this, but this works good enough for me.
 
 I don't know if it's a mistake, or how long it'll last, but enjoy it while you can!
 
